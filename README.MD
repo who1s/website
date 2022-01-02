@@ -8,6 +8,9 @@ If you want to fix bugs, contribute new cool layouts or something else, feel fre
 
 - Make website fancier
 - Fix bugs
+- Remove non existent classes
+- Create 404 page
+- Create RSS
 
 ## Run in your envinronment
 
