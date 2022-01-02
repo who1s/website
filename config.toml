@@ -1,0 +1,187 @@
+baseURL = "https://helsec.fi"
+title   = "[HelSec Ry]"
+languageCode = "en-us"
+theme = "helsec"
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+paginate  = 10
+rssLimit  = 10  # Maximum number of items in the RSS feed.
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:title/"
+
+[author]
+  name = "Juho Jauhiainen"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  # 
+  description = "HelSec is a cybersecurity group by the community, for the community."
+  keywords = "cybersecurity, helsec, meetup, Helsinki, Finland, hacking, dfir, red team, bug bounty, information sharing"
+
+  # The big red utton information
+  buttonText = "JOIN US"
+  buttonUrl = "https://byte.flomembers.com/helsec/members/application"
+
+  # Social icons
+[[params.social]]
+    icon = "fab fa-meetup"
+    url  = "https://twitter.com/HelSecurity/"
+
+  [[params.social]]
+    icon = "fab fa-discord"
+    url  = "https://discord.com/invite/NBvCAm8"
+
+  [[params.social]]
+    icon = "fab fa-twitter"
+    url  = "https://twitter.com/HelSecurity/"
+
+  [[params.social]]
+    icon = "fab fa-linkedin"
+    url  = "https://fi.linkedin.com/company/helsec"
+
+  [[params.social]]
+    icon = "fab fa-facebook"
+    url  = "https://www.facebook.com/HelsinkiSec/"
+
+  [[params.social]]
+    icon = "fab fa-instagram"
+    url  = "https://www.instagram.com/helsec_fi"
+
+  [[params.social]]
+    icon = "far fa-envelope"
+    url  = "mailto:contact@helsec.fi"
+
+[menu]
+
+# News
+
+  [[menu.main]]
+    identifier = "news"
+    name       = "News"
+    url        = "news/"
+    weight     = "1"
+
+# Events
+
+  [[menu.main]]
+    identifier = "events"
+    name       = "Events"
+    url        = "events/"
+    weight     = "2"
+
+# Members linkit
+
+  [[menu.main]]
+    identifier = "membership"
+    name       = "Membership"
+    weight     = "3"
+
+
+  [[menu.main]]
+    identifier = "docs"
+    parent     = "membership"
+    name       = "docs"
+    url        = "members/docs"
+
+  [[menu.main]]
+    identifier = "apply"
+    parent     = "membership"
+    name       = "Apply"
+    url        = "https://byte.flomembers.com/helsec/members/application"
+    weight     = "1"
+
+  [[menu.main]]
+    identifier = "flomembers"
+    parent     = "membership"
+    name       = "Flomembers"
+    url        = "https://byte.flomembers.com/helsec/"
+
+# About us linkit
+
+  [[menu.main]] 
+    identifier = "about"
+    name       = "About us"
+    url        = "about/" 
+    weight     = "4"
+
+  [[menu.main]] 
+    identifier = "history"
+    parent     = "about"
+    name       = "History"
+    url        = "about/history/"
+    weight     = "1"
+
+  [[menu.main]] 
+    identifier = "board"
+    parent     = "about"
+    name       = "Board"
+    url        = "about/board/"
+    weight     = "2"
+
+  [[menu.main]]
+    identifier = "supporters"
+    name       = "Supporters"
+    parent     = "about"
+    url        = "about/supporters"
+    weight     = "3"
+
+  [[menu.main]]
+    identifier = "rules"
+    name       = "Rules"
+    parent     = "about"
+    url        = "about/rules/"
+    weight     = "4"
+
+  [[menu.main]]
+    identifier = "coe"
+    name       = "Code of Ethics"
+    parent     = "about"
+    url        = "about/coe/"
+    weight     = "5"
+
+# FAQ
+
+  [[menu.main]]
+    identifier = "faq"
+    name       = "FAQ"
+    url        = "faq/"
+    weight     = "10"

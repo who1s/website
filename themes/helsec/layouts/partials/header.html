@@ -1,0 +1,29 @@
+<h1 id="logo"><a href="{{ .Site.BaseURL }}">HelSec<span>.fi</span></a></h1>
+<nav id="nav">
+    <ul>
+        <li class="current"><a href="{{ .Site.BaseURL }}">Home</a></li>
+        <li class="submenu">
+            <a href="#">Menu</a>
+            <ul>
+                {{ range .Site.Menus.main -}}
+                {{ if .HasChildren }}
+                    <li class="submenu">
+                        <a>{{ .Name }}</a>
+                        <ul>
+                            {{ range .Children }}
+                            {{ if hasPrefix .URL "http" }}
+                            <li><a href="{{ .URL | relLangURL }}" target="_blank">{{ .Name }}</a></li>
+                            {{ else }}
+                            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                            {{ end }}
+                            {{- end }}
+                        </ul>
+                {{ else }}
+                <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+                {{ end }}
+                {{- end }}
+            </ul>
+        </li>
+        <li><a href="#" class="button primary">Join us</a></li>
+    </ul>
+</nav>

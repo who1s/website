@@ -1,0 +1,56 @@
+{{ define "main" }}
+<div id="page-wrapper">
+
+    <header id="header">
+    {{- partial "header.html" . -}}
+    </header>
+    
+    <article id="main">
+        <section class="wrapper style2 container special-alt">
+        <div class="row gtr-50">
+        <div class="col-12 col-12-narrower">
+        <h2><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+
+
+        {{ if .Params.Cover }}
+        <figure class="post-cover">
+            <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
+        
+            {{ if .Params.CoverCaption }}
+                <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+            {{ end }}
+        </figure>
+        {{ end }}
+        
+        {{ if .Params.Link }}
+            <ul class="buttons">
+                <li><a href="{{ .Params.Link }}" target="_blank" class="button"><i class="fab fa-meetup"></i> Meetup.com</a></li>
+            </ul>
+        {{ end }}
+        {{ if .Params.Stream }}
+        <ul class="buttons">
+            <li><a href="{{ .Params.Stream }}" target="_blank" class="button"><i class="fab fa-twitch"></i> Twitch.tv</a></li>
+        </ul>
+        {{ end }}
+    </br>
+        {{ if .Params.toc }}
+        <hr />
+        <aside id="toc">
+        <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+            {{ .TableOfContents }}
+        </aside>
+        <hr />
+        {{ end }}
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+        </div>
+        </div>
+        <ul class="buttons">
+            <li><a class="button" onclick="history.back()"><i class="fas fa-arrow-left"></i></i> Go back</a></li>
+        </ul>
+        </section>
+        </article>
+{{ end }}
+
