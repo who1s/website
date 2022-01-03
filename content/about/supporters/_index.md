@@ -1,4 +1,0 @@
----
-title: "Supporters"
-type: "supporters"
----
