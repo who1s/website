@@ -11,9 +11,9 @@ If this page does not answer your question, please don't hesitate to contact us:
 
 ### My company/employer wants to support HelSec, how can we do it?
 
-- HelSec welcomes annually support members. Price of the support membership is currently 1500e and companies can apply for it on [Flomembers](https://byte.flomembers.com/helsec/members/application).
+- HelSec welcomes annually support members. Price of the support membership is currently 1500&euro; and companies can apply for it on [Flomembers](https://byte.flomembers.com/helsec/members/application).
 
 ## Flomembers
 ### I've forgot my password / I haven't activated my account
 
-- You can retrieve your password using the "Lost password?" functionality
+- You can retrieve your password using the "[Lost password?](https://byte.flomembers.com/helsec/user/recovery)" functionality
