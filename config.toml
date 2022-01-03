@@ -64,7 +64,7 @@ disableHugoGeneratorInject = false
   # Social icons
 [[params.social]]
     icon = "fab fa-meetup"
-    url  = "https://twitter.com/HelSecurity/"
+    url  = "https://www.meetup.com/HelSec/"
 
   [[params.social]]
     icon = "fab fa-discord"
