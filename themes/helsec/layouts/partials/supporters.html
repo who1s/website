@@ -1,0 +1,41 @@
+<section class="wrapper style3 container special">
+
+    <header class="major">
+        <h2><strong>Support members</strong> {{ now.Format "2006" }}</h2>
+    </header>
+    {{ $.Scratch.Set "counter" 0}}
+    {{ with .Site.GetPage "section" "supporters" }}
+    {{ range .Pages }}
+        {{ if in .Params.years (now.Format "2006") }}
+        {{ $counter := $.Scratch.Get "counter" }}
+        {{ if eq $counter 0 }}
+        <div class="row aln-center">
+        {{- end }}
+        <div class="col-3 col-12-narrower">
+
+            <section>
+                <a href="{{.Permalink}}" class="image featured"><img src="{{ .Site.BaseURL }}{{ .Params.logo }}" alt="" /></a>
+            </section>
+            </div>
+
+        {{ $.Scratch.Add "counter" 1}}
+        {{ if eq $counter 3 }}  
+            {{ $.Scratch.Set "counter" 0}}
+        {{- end -}}
+        {{- end }}
+        {{- end }}
+    {{- end }}
+
+        </div>
+
+    <div class ="row aln-center">
+
+    <footer class="major">
+        <ul class="buttons">
+            <li><a href="/about/supporters" class="button">See More</a></li>
+        </ul>
+    </footer>
+
+</div>    
+
+</section>

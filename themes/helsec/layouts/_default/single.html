@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div id="page-wrapper">
+
+    <header id="header">
+    {{- partial "header.html" . -}}
+    </header>
+
+
+    <article id="main"> 
+        <section class="wrapper style2 container special-alt">
+        <div class="row gtr-50">
+        <div class="col-12 col-12-narrower">
+        <h2><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+        {{ if .Date }}
+        {{ if .Params.Author}}
+        {{ if .Params.Authorlink }}
+        <p>Published: {{ .Date.Format "2006-01-02" }} by <a href="{{ .Params.Authorlink }}" target="_blank"><strong>{{ .Params.Author }}</strong></a></p>
+        {{ else }}
+        <p>Published: {{ .Date.Format "2006-01-02" }} by <strong>{{ .Params.Author }}</strong></p>
+        {{ end }}
+        {{ else }}
+        <p>Published: {{ .Date.Format "2006-01-02" }} by <strong>HelSec Ry</strong></p>
+        {{ end }}
+        {{ end }}
+ 
+        {{ if .Params.Cover }}
+        <figure class="post-cover">
+            <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
+        
+            {{ if .Params.CoverCaption }}
+                <figcaption class="center">{{ .Params.CoverCaption | markdownify }}</figcaption>
+            {{ end }}
+        </figure>
+        {{ end }}
+
+        {{ if .Content }}
+            <div class="content">{{ .Content }}</div>
+        {{ end }}
+        </div>
+        </div>
+        <ul class="buttons">
+            <li><a class="button" onclick="history.back()"><i class="fas fa-arrow-left"></i></i> Go back</a></li>
+        </ul>   
+        </section>
+        </article>
+{{ end }}
+

@@ -1,0 +1,15 @@
+<!-- Footer -->
+<footer id="footer">
+    {{- with .Site.Params.social }}
+    <ul class="icons">
+        {{ range . -}}
+        <a href="{{ .url }}" target="_blank" class="btn-social btn-gen"><i class="{{ .icon }}"></i><span></span></a>
+        {{- end -}}
+    </ul>
+    {{- end -}}
+    <ul class="copyright">
+        <li>&copy; HelSec Ry, 2019-{{ now.Format "2006" }}</li>
+        <!-- Design: HTML5 UP -> http://html5up.net -->
+    </ul>
+
+</footer>

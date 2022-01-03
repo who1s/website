@@ -1,0 +1,82 @@
+{{ define "main" }}
+<div id="page-wrapper">
+
+    <header id="header" class="alt">
+    {{- partial "header.html" . -}}
+    </header>
+
+    {{- partial "banner.html" . -}}
+
+    <!-- Main -->
+        <article id="main">
+
+            <!-- Two -->
+            <section class="wrapper style1 container special">
+                <div class="row">
+                    <div class="col-4 col-12-narrower">
+                        <section>
+                            <header>
+                                <h3>Meetups</h3>
+                            </header>
+                            <p>In our meetups you can meet people, enjoy beverages, and listen <strong>awesome talks</strong>. Our meetups are open for everyone and also streamed on <a href="https://twitch.tv/helsec" target="_blank">Twitch</a>!</p>
+                        </section>
+                    </div>
+                    <div class="col-4 col-12-narrower">
+                        <section>
+                            <header>
+                                <h3>Workshops</h3>
+                            </header>
+                            <p>Want to learn <strong>hacking, reverse engineering, or forensiscs</strong>? We hold workshops where you can learn new cyber security tips and tricks.</p>
+                        </section>
+
+                    </div>
+                    <div class="col-4 col-12-narrower">
+
+                        <section>
+                            <header>
+                                <h3>And more</h3>
+                            </header>
+                            <p>Discord server, swag, stickers, and a <strong>challenge coin</strong> for a starter. We also support <a href="https://challenge.fi/" target="_blank">Gen Z Challenge</a> and hold hacking courses for a local high school.</p>
+                        </section>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- One -->
+                <section class="wrapper style2 container special-alt">
+                    <div class="row gtr-50">
+                        <div class="col-8 col-12-narrower">
+
+                            <header>
+                                <h2><strong>HelSec</strong> membership</h2>
+                            </header>
+                            <p>HelSec is an registered association and welcomes membership applications. With a membership you receive right to vote in our regular meetings, helsec.fi email address, a challenge coin, privielege to order HelSec swag, and opportunity to sign up to our meetups and workshops 24 hours before others.</p>
+                            <footer>
+                                <ul class="buttons">
+                                    <li><a href="https://byte.flomembers.com/helsec/members/application" target="_blank" class="button">Apply for membership</a></li>
+                                </ul>
+                            </footer>
+
+                        </div>
+                        <div class="col-4 col-12-narrower imp-narrower">
+
+                            <ul class="featured-icons">
+                                <li><span class="icon solid fa-project-diagram"><span class="label">Feature 1</span></span></li>
+                                <li><span class="icon solid fa-clock"><span class="label">Feature 2</span></span></li>
+                                <li><span class="icon solid fa-beer"><span class="label">Feature 3</span></span></li>
+                                <li><span class="icon solid fa-inbox"><span class="label">Feature 4</span></span></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </section>
+
+                {{- partial "supporters.html" . -}}
+
+        </article>
+
+        {{- partial "cta.html" . -}}
+
+</div>
+{{ end }}
