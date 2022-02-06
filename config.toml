@@ -1,5 +1,5 @@
 baseURL = "https://helsec.fi"
-title   = "[HelSec Ry]"
+title   = "HelSec Ry"
 languageCode = "en-us"
 theme = "helsec"
 PygmentsCodeFences = true
