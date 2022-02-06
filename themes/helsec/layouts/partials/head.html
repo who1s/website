@@ -1,5 +1,6 @@
 <head>
-<title>{{ $title := print .Site.Title " | " .Title }}</title>
+<title>{{ .Site.Title }}{{ if .IsHome }} - Home{{ else }}{{ if .Page.Title }} - {{ .Page.Title }}{{ end }}{{ end }}</title>
+<link rel="shortcut icon" type="image/png" href="{{ .Site.BaseURL }}/favicon.png">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/main.css" />
