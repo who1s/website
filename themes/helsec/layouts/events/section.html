@@ -16,7 +16,6 @@
         <div class="col- col-12-narrower">{{ .Content }}</div>
         {{ end }}
 
-      
     </div>
 
         <div class="row gtr-50">
@@ -34,11 +33,11 @@
         {{ range $future_events }}
                     <li>
                         <a href="{{.Permalink}}">
-                            <span>Title: {{.Title}}</span>  
+                            <span>{{.Title}} | {{ .Date.Format "2006-01-02" }}</span>
                         </a>
                     </li>
-        </ul>
         {{ end }}
+        </ul>
       {{ end }}
       </div>
 
@@ -55,7 +54,6 @@
                   {{ end }}
             </ul>
     </div>
-
       </div>
 
         </section>
