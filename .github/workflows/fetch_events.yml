@@ -16,14 +16,9 @@ jobs:
       - name: Execute python
         run: |
           python get_events.py
-      - name: Commit events
-        run: |
-          git config --local user.email "contact@helsec.fi"
-          git config --local user.name "HelSec-bot"
-          git add -A
-          git commit -m "Update events data" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@v0.6.0
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          github_token: ${{ secrets.TOKEN }}
-          branch: main
+          commit_message: "Update events!"
+          commit_user_name: HelSec-bot
+          commit_user_email: contact@helsec.fi
+          commit_author: HelSec-Bot <contact@helsec.fi>
