@@ -1,0 +1,31 @@
+name: check_events
+on:
+  schedule:
+    - cron: "0 3 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+      - name: Setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install requirements
+        run: |
+          pip install -r requirements.txt
+      - name: Execute python
+        run: |
+          python get_events.py
+      - name: Commit events
+        run: |
+          git config --local user.email "contact@helsec.fi"
+          git config --local user.name "HelSec-bot"
+          git add -A
+          git commit -m "Update events data" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.TOKEN }}
+          branch: main
