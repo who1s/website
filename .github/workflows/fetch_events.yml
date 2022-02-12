@@ -1,7 +1,9 @@
 name: check_events
-on: [workflow_dispatch]
+on:
+  schedule:
+    - cron: "0 3 * * *"
 jobs:
-  build:
+  check-events:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
