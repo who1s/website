@@ -4,13 +4,9 @@ date: 2022-04-14T18:00:00+0300
 link: 'https://www.meetup.com/HelSec/events/284782541/'
 ---
 
-<<<<<<< HEAD
 ❗️ Update: Adding more slots
 
  ❗ Update: There will be only 10 slots available through meetup.com as many of our registered members have signed up to the event.
-=======
-❗ Update: There will be only 10 slots available through meetup.com as many of our registered members have signed up to the event.
->>>>>>> 766fdec58ff7f7094133f233b4145ac310c39b90
 
  ❗ Registration will open for HelSec Ry registered members on Thursday 31st of March. Information will be emailed to registered members. If there are available slots on Thursday 7th of April 18:00 (EEST), we will open the registration here for non-registered members. More details about membership on <https://helsec.fi>
 
