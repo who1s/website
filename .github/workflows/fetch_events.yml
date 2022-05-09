@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.TOKEN }}
       - name: Setup python
         uses: actions/setup-python@v2
         with:
