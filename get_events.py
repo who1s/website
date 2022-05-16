@@ -33,7 +33,7 @@ def main():
         raise SystemExit(e)
     events_count = len(r.json())
     print("Events on meetup.com: {} and on disk: {}".format(events_count, check_events()))
-    if events_count > check_events():
+    if events_count > check_events() or 1==1:
         print("Fetching new events from meetup.com")
         for event in r.json():
             event_data = "---\n"
