@@ -10,9 +10,8 @@ If you want to fix bugs, contribute new cool layouts or something else, feel fre
 - Fix bugs
 - Remove non existent classes
 - Create 404 page
-- Create RSS
 
 ## Run in your envinronment
 
 1. Git clone
-2. `hugo serve -D`
+2. `hugo serve -FD`
