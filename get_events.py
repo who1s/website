@@ -33,9 +33,10 @@ def main():
         raise SystemExit(e)
     events_count = len(r.json())
     print("Events on meetup.com: {} and on disk: {}".format(events_count, check_events()))
-    if events_count > check_events():
+    if events_count > check_events() or 1==1:
         print("Fetching new events from meetup.com")
         for event in r.json():
+            print("Event: " + (event['name']))
             event_data = "---\n"
             event_data += "title: '{}'\n".format(event['name'])
             event_date = datetime.strptime("{} {}:00".format(event['local_date'], event['local_time']), '%Y-%m-%d %H:%M:%S')
