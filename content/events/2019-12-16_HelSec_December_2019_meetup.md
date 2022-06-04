@@ -1,7 +1,7 @@
 ---
 title: 'HelSec December 2019 meetup'
 date: 2019-12-16T17:30:00+0200
-link: 'https://www.meetup.com/HelSec/events/266464116/'
+link: 'https://www.meetup.com/helsec/events/266464116/'
 ---
 
 Welcome to the HelSec December 2019 meetup! We will have two awesome speakers from the infosec / cybersecurity industry and beverages will be provided. This event is powered by Smartly.io.

@@ -1,7 +1,7 @@
 ---
 title: 'HelSec September 2019 meetup'
 date: 2019-09-19T17:30:00+0300
-link: 'https://www.meetup.com/HelSec/events/264285738/'
+link: 'https://www.meetup.com/helsec/events/264285738/'
 ---
 
 Welcome to the HelSec September 2019 meetup! We will have two awesome speakers from the infosec / cybersecurity industry and beverages will be provided. This event is powered by HoxHunt.

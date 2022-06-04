@@ -2,7 +2,7 @@
 title: 'HelSec Virtual Meetup #4'
 date: 2020-11-18T18:00:00+0200
 stream: 'https://twitch.tv/helsec'
-link: 'https://www.meetup.com/HelSec/events/274408037/'
+link: 'https://www.meetup.com/helsec/events/274408037/'
 ---
 
 Welcome to the HelSec Virtual Meetup 4! 🤗

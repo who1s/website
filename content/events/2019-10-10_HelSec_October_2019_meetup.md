@@ -1,7 +1,7 @@
 ---
 title: 'HelSec October 2019 meetup'
 date: 2019-10-10T17:30:00+0300
-link: 'https://www.meetup.com/HelSec/events/265114218/'
+link: 'https://www.meetup.com/helsec/events/265114218/'
 ---
 
 Welcome to the HelSec October 2019 meetup! We will have THREE awesome speakers from the infosec / cybersecurity industry and beverages will be provided. This event is powered by Siili Solutions.

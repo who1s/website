@@ -1,7 +1,7 @@
 ---
 title: 'HackTheBox night'
 date: 2019-05-09T17:00:00+0300
-link: 'https://www.meetup.com/HelSec/events/259848015/'
+link: 'https://www.meetup.com/helsec/events/259848015/'
 ---
 
 Let's spend a fun night solving HackTheBox challenges & boxes together :)

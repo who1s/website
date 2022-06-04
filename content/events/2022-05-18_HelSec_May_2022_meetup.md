@@ -1,7 +1,7 @@
 ---
 title: 'HelSec May 2022 meetup'
 date: 2022-05-18T18:00:00+0300
-link: 'https://www.meetup.com/HelSec/events/285865553/'
+link: 'https://www.meetup.com/helsec/events/285865553/'
 ---
 
 ❗ Registration will open for HelSec Ry registered members on Friday 13th of May. Information will be emailed to registered members. If there are available slots on Monday 16th of April 18:00 (EEST), we will open the registration here for non-registered members. More details about membership on <https://helsec.fi>

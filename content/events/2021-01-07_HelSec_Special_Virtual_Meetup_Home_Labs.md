@@ -2,7 +2,7 @@
 title: 'HelSec Special Virtual Meetup: Home Labs'
 date: 2021-01-07T18:00:00+0200
 stream: 'https://twitch.tv/helsec'
-link: 'https://www.meetup.com/HelSec/events/275548831/'
+link: 'https://www.meetup.com/helsec/events/275548831/'
 ---
 
 Welcome to the HelSec Special Virtual Meetup: Home Labs! 🤗

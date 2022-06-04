@@ -2,7 +2,7 @@
 title: 'HelSec Virtual Meetup #1'
 date: 2020-05-07T17:00:00+0300
 stream: 'https://twitch.tv/helsec'
-link: 'https://www.meetup.com/HelSec/events/270057483/'
+link: 'https://www.meetup.com/helsec/events/270057483/'
 ---
 
 Welcome to the HelSec Virtual Meetup 1! 🤗

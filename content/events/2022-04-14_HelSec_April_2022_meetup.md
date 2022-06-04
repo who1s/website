@@ -1,7 +1,7 @@
 ---
 title: 'HelSec April 2022 meetup'
 date: 2022-04-14T18:00:00+0300
-link: 'https://www.meetup.com/HelSec/events/284782541/'
+link: 'https://www.meetup.com/helsec/events/284782541/'
 ---
 
 ❗️ Update: Adding more slots

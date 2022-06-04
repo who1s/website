@@ -1,7 +1,7 @@
 ---
 title: 'HelSec February 2019 meetup'
 date: 2019-02-21T17:30:00+0200
-link: 'https://www.meetup.com/HelSec/events/258218730/'
+link: 'https://www.meetup.com/helsec/events/258218730/'
 ---
 
 Welcome to the HelSec February 2019 meetup! We will have two speakers from the infosec / cybersecurity industry and beverages will be provided. The event is powered by Elisa.

@@ -2,7 +2,7 @@
 title: 'HelSec Virtual Meetup #3'
 date: 2020-08-27T18:00:00+0300
 stream: 'https://twitch.tv/helsec'
-link: 'https://www.meetup.com/HelSec/events/272479383/'
+link: 'https://www.meetup.com/helsec/events/272479383/'
 ---
 
 Welcome to the HelSec Virtual Meetup 3! 🤗

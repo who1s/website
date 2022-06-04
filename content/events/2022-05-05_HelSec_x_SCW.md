@@ -1,7 +1,7 @@
 ---
 title: 'HelSec x SCW'
 date: 2022-05-05T17:00:00+0300
-link: 'https://www.meetup.com/HelSec/events/285537288/'
+link: 'https://www.meetup.com/helsec/events/285537288/'
 ---
 
 Secure Code Warrior Returns!!

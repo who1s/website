@@ -1,7 +1,7 @@
 ---
 title: 'HelSec January 2019 meetup'
 date: 2019-01-17T17:30:00+0200
-link: 'https://www.meetup.com/HelSec/events/257030312/'
+link: 'https://www.meetup.com/helsec/events/257030312/'
 ---
 
 UPDATE: Please enter the premises from the northeastern entrance (opposite to Oodi, by Töölönlahdenkatu). The event is "downstairs" from said entrance. ****

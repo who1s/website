@@ -2,7 +2,7 @@
 title: 'HelSec Virtual Meetup #13'
 date: 2022-02-10T18:00:00+0200
 stream: 'https://twitch.tv/helsec'
-link: 'https://www.meetup.com/HelSec/events/283760511/'
+link: 'https://www.meetup.com/helsec/events/283760511/'
 ---
 
 Welcome to the HelSec Virtual Meetup 13! 🤗

@@ -1,7 +1,7 @@
 ---
 title: 'SecureCodeWarrior competition (CTF)'
 date: 2019-10-08T17:30:00+0300
-link: 'https://www.meetup.com/HelSec/events/265114387/'
+link: 'https://www.meetup.com/helsec/events/265114387/'
 ---
 
 CONFIRMED!!!! This will be held on Tue Oct 8th!

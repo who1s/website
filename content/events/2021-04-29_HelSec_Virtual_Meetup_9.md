@@ -2,7 +2,7 @@
 title: 'HelSec Virtual Meetup #9'
 date: 2021-04-29T18:00:00+0300
 stream: 'https://twitch.tv/helsec'
-link: 'https://www.meetup.com/HelSec/events/277717680/'
+link: 'https://www.meetup.com/helsec/events/277717680/'
 ---
 
 Welcome to the HelSec Virtual Meetup 9! 🤗

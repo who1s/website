@@ -1,7 +1,7 @@
 ---
 title: 'HelSec January 2020 meetup'
 date: 2020-01-09T17:30:00+0200
-link: 'https://www.meetup.com/HelSec/events/267337359/'
+link: 'https://www.meetup.com/helsec/events/267337359/'
 ---
 
 Welcome to the HelSec January 2020 meetup, our 1ST anniversary! 🥳We will have three awesome speakers from the infosec / cybersecurity industry and beverages will be provided. This event is powered by Solita.

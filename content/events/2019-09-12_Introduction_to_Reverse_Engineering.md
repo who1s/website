@@ -1,7 +1,7 @@
 ---
 title: 'Introduction to Reverse Engineering'
 date: 2019-09-12T18:00:00+0300
-link: 'https://www.meetup.com/HelSec/events/263993082/'
+link: 'https://www.meetup.com/helsec/events/263993082/'
 ---
 
 In this workshop we cover the basics of reverse engineering, using the Ghidra toolset developed by the NSA. We will go through basic x86 assembly and how common programming constructs map to instructions, guided by small exercises involving Windows and Linux binaries.

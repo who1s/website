@@ -1,7 +1,7 @@
 ---
 title: 'HelSec November 2021 meetup'
 date: 2021-11-18T17:30:00+0200
-link: 'https://www.meetup.com/HelSec/events/281879992/'
+link: 'https://www.meetup.com/helsec/events/281879992/'
 ---
 
 ❗❗ UPDATE[masked]: There are 70 slots for non-registered members

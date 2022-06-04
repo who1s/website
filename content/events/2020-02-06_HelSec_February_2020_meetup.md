@@ -1,7 +1,7 @@
 ---
 title: 'HelSec February 2020 meetup'
 date: 2020-02-06T17:30:00+0200
-link: 'https://www.meetup.com/HelSec/events/267828491/'
+link: 'https://www.meetup.com/helsec/events/267828491/'
 ---
 
 Welcome to the HelSec February 2020 meetup! 🤗We will have two awesome speakers from the infosec / cybersecurity industry and beverages will be provided. This event is powered by Transcendent Group.

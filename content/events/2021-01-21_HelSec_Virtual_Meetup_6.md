@@ -2,7 +2,7 @@
 title: 'HelSec Virtual Meetup #6'
 date: 2021-01-21T18:00:00+0200
 stream: 'https://twitch.tv/helsec'
-link: 'https://www.meetup.com/HelSec/events/275770212/'
+link: 'https://www.meetup.com/helsec/events/275770212/'
 ---
 
 Welcome to the HelSec Virtual Meetup 6! 🤗

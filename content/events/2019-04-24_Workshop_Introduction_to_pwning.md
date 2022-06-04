@@ -1,7 +1,7 @@
 ---
 title: 'Workshop: Introduction to pwning'
 date: 2019-04-24T17:00:00+0300
-link: 'https://www.meetup.com/HelSec/events/259847064/'
+link: 'https://www.meetup.com/helsec/events/259847064/'
 ---
 
 This hands-on workshop introduces the offensive perspective to information security with lab exercises covering the very basics of reconnaissance, attack preparation, exploitation, and privilege escalation techniques. No prior h4x0r skills required, this is an introductory workshop. The instructor is Ossi Väänänen from Sanoma. The content is roughly the same as in the workshop I did last fall with Turkusec and Tresec.
