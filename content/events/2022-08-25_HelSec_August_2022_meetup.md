@@ -4,7 +4,9 @@ date: 2022-08-25T18:00:00+0300
 link: 'https://www.meetup.com/helsec/events/287833782/'
 ---
 
-❗ Registration will open for HelSec Ry registered members on Monday 15th of August. Information will be emailed to registered members. If there are available slots on Monday 22nd of August 18:00 (EEST), we will open the registration here for non-registered members. More details about membership on <https://helsec.fi>
+❗ ❗ This meetup became full by HelSec Ry registered members. Meetup.com will act as a waiting list and we will open slots if we get cancellations from registered members.
+
+ ❗ Registration will open for HelSec Ry registered members on Monday 15th of August. Information will be emailed to registered members. If there are available slots on Monday 22nd of August 18:00 (EEST), we will open the registration here for non-registered members. More details about membership on <https://helsec.fi>
 
  Welcome to the HelSec August 2022 meetup! We will have two presentations from the infosec / cybersecurity industry and beverages will be provided.
 
