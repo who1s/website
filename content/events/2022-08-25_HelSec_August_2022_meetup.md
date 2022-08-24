@@ -1,6 +1,6 @@
 ---
 title: 'HelSec August 2022 meetup'
-date: 2022-08-25T18:00:00+0300
+date: 2022-08-25T17:30:00+0300
 link: 'https://www.meetup.com/helsec/events/287833782/'
 ---
 
@@ -10,7 +10,7 @@ link: 'https://www.meetup.com/helsec/events/287833782/'
 
  Welcome to the HelSec August 2022 meetup! We will have two presentations from the infosec / cybersecurity industry and beverages will be provided.
 
- 18:00 - Doors open
+ 17:30 - Doors open
 
  18:15 - Word by HelSec
 
