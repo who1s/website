@@ -8,6 +8,8 @@ link: 'https://www.meetup.com/helsec/events/288481641/'
 
  Welcome to the HelSec September 2022 meetup! We will have three awesome presentations from the infosec / cybersecurity industry and beverages will be provided.
 
+ 17:30 - Doors open
+
  18:00 - Word by HelSec
 
  18:15 - “Blockchain identity – New ways to use blockchain in cybersecurity” by Matti Särkisilta
@@ -21,6 +23,8 @@ link: 'https://www.meetup.com/helsec/events/288481641/'
  20:15 - "TLS is fine and why we should really care about it" by Tomi Koski
 
  21:00 - Q&A, networking, beverages
+
+ 23:00 - Meetup end. If you're thirsty, we can continue "pystyy vetää" elsewhere.
 
  This meetup will be streamed on Twitch: <https://twitch.tv/helsec>
 
