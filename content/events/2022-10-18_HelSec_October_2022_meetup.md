@@ -30,7 +30,7 @@ link: 'https://www.meetup.com/helsec/events/288965361/'
 
  Speaker bio:  
 🔷 Ilja Ikonen - Ilja is the Head of Information Security, Risk Management and Business Continuity at Verkkokauppa.com. Before Verkkokauppa.com Ilja worked at KPMG as an information security consultant. Ilja graduated from University of Vaasa in 2015 with Masters degree in Business and economics majoring Computer science.  
-🔷 Jani Kirmanen - Jani is a founder and Chief Development Officer of Silverskin Information Security Oy. He has a passion for languages (both natural and synthetic) and as a PhD student at University of Jyväskylä his research deals with using formal language theory to model software security vulnerabilities.  
+🔷 Jani Kirmanen - Jani is a founder and Chief Development Officer of Silverskin Information Security Oy. He has a passion for languages (both natural and synthetic) and as a PhD student at University of Jyväskylä his research deals with using formal language theory to model software security vulnerabilities.  
 🔷 Jaakko Jokinen - Jaakko works for PwC as a cybersecurity consultant. He has a teacher degree in mathematics and computer science, and that used to be his previous profession before making the leap into the cyberspace.
 
  
