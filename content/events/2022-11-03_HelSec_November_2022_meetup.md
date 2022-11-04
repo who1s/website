@@ -24,7 +24,7 @@ link: 'https://www.meetup.com/helsec/events/289306349/'
 
  21:00 - Q&A, networking, beverages
 
- 23:00 - Meetup end. If you're thirsty, we can continue elsewhere.
+ 22:00 - Meetup end. If you're thirsty, we can continue elsewhere.
 
  This meetup will be streamed on Twitch: <https://twitch.tv/helsec>
 
