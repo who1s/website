@@ -20,7 +20,7 @@ link: 'https://www.meetup.com/helsec/events/290016123/'
 
  20:00 - Q&A, networking, beverages
 
- 20:15 - TBA by Samuli Järvinen
+ 20:15 - "Cyber Security nerd as a prey for a HUMINT Predator" by Samuli Järvinen
 
  21:00 - Q&A, networking, beverages
 
