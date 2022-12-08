@@ -4,7 +4,9 @@ date: 2022-12-08T18:00:00+0200
 link: 'https://www.meetup.com/helsec/events/290016123/'
 ---
 
-❗ Registration will open for HelSec Ry registered members on Thursday 1st of December. Information will be emailed to registered members. If there are available slots on Tuesday 6th of December 18:00 (EET), we will open the registration here for non-registered members. More details about membership on <https://helsec.fi>
+❗️ Our first speaker Jouni Mikkola had to cancel due to illness.
+
+ ❗ Registration will open for HelSec Ry registered members on Thursday 1st of December. Information will be emailed to registered members. If there are available slots on Tuesday 6th of December 18:00 (EET), we will open the registration here for non-registered members. More details about membership on <https://helsec.fi>
 
  Welcome to the HelSec December 2022 meetup! We will have three awesome presentations from the infosec / cybersecurity industry and beverages will be provided.
 
@@ -12,19 +14,17 @@ link: 'https://www.meetup.com/helsec/events/290016123/'
 
  18:00 - Word by HelSec
 
- 18:15 - “Story of a security breach” by Jouni Mikkola
+ CANCELLED - “Story of a security breach” by Jouni Mikkola
+
+ 18:15 - "Infosec by Ilta-Sanomat – how to bring the news from the experts for the good of everyone" by Henrik Kärkkäinen
 
  19:00 - Q&A, networking, beverages
 
- 19:15 - "Infosec by Ilta-Sanomat – how to bring the news from the experts for the good of everyone" by Henrik Kärkkäinen
+ 19:15 - "Cyber Security nerd as a prey for a HUMINT Predator" by Samuli Järvinen
 
  20:00 - Q&A, networking, beverages
 
- 20:15 - "Cyber Security nerd as a prey for a HUMINT Predator" by Samuli Järvinen
-
- 21:00 - Q&A, networking, beverages
-
- 22:00 - Meetup end. If you're thirsty, we can continue elsewhere.
+ 21:30 - Meetup end. If you're thirsty, we can continue elsewhere.
 
  This meetup will be streamed on Twitch: <https://twitch.tv/helsec>
 
