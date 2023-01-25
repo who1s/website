@@ -4,7 +4,7 @@ date: 2023-01-26T17:30:00+0200
 link: 'https://www.meetup.com/helsec/events/290976715/'
 ---
 
-❗ Registration will open for HelSec Ry registered members on Thursday 19th of January. Information will be emailed to registered members. If there are available slots on Tuesday 24th of January 18:00 (EET), we will open the registration here for non-registered members. More details about membership on <https://helsec.fi>
+❗All available slots were filled by members in pre-registration. If there are cancellations, free slots will be opened for the waiting list.
 
  Welcome to the HelSec January 2023 meetup!  
 We will have two awesome presentations from the infosec / cybersecurity industry and beverages will be provided.
