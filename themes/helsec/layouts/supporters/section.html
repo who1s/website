@@ -30,7 +30,7 @@
         <div class="row aln-center">
         {{ with $.Site.GetPage "section" "supporters" }}
         {{ range .Pages }}
-        {{ if in .Params.years (string $year) }}
+        {{ if in .Params.years (int $year) }}
         <div class="col-3 col-12-narrower">
           <section>
               <a href="{{.Permalink}}" class="image featured"><img src="{{ .Site.BaseURL }}/{{ .Params.logo }}" alt="" /></a>
